@@ -1,0 +1,9 @@
+import numpy as np
+
+def solution(arr1, arr2):
+    answer = [[]]
+    
+    arr1 = np.array(arr1)
+    arr2 = np.array(arr2)
+    
+    return arr1.dot(arr2).tolist()
